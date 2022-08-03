@@ -10,6 +10,12 @@
    
 }
 
+.alertMsg{
+    text-align:center;
+    font-size: 18px;
+    font-weight: 800;
+}
+
 form{
     display: flex;
     background-color: #000000cc;
@@ -28,9 +34,17 @@ form{
 }
 
 .btn{
-    background-color: #7cb12c;
+    background-color: #4bc7ed;
     color:#ffffff;
     border:none;
+}
+
+#rm-btn{
+    padding:10px;
+    background-color: #f34848;
+    color:#fff;
+    border:none;
+    cursor:pointer;
 }
 
 table{
@@ -38,9 +52,10 @@ table{
 }
 table th{
     padding: 10px;
-    background-color: #53d4ea;
+    background-color: #bae83b;
 }
 table td{
+    text-align: center;
     padding: 10px;
     background-color: #d0e6e6;
 }
